@@ -1,0 +1,297 @@
+<?xml version = "1.0"?>
+<GameData>
+<screenTitle>Lu Wang</screenTitle>
+<maxStringSize>50</maxStringSize>
+<username>lw5</username>
+<frameMax>1200</frameMax>
+
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>5000</width>
+  <height>480</height>
+</world>
+
+<hud>
+	<startLoc x="5" y="5"/>
+	<width>300</width>
+	<height>235</height>
+	<width1>250</width1>
+	<height1>160</height1>
+	<red>255</red>
+  	<green>0</green>
+  	<blue>0</blue>
+	<alpha>150</alpha>
+</hud>
+
+<back1>
+	<file>images/back/1.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>5</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1708</width>
+  <height>480</height>
+  <transparency>false</transparency>
+</back1>
+
+<back2>
+	<file>images/back/2.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>3</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1708</width>
+  <height>480</height>
+  <transparency>false</transparency>
+</back2>
+
+<back3>
+	<file>images/back/3.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>1</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1708</width>
+  <height>480</height>
+  <transparency>false</transparency>
+</back3>
+
+<defaultSpritsNumber>20</defaultSpritsNumber>  <!--My code, indicates default orbs number-->
+<defaultEnemyNumber>10</defaultEnemyNumber>
+<defaultWorldsNumber>3</defaultWorldsNumber>  <!--My code, indicates default orbs number-->
+
+<font name="font">
+  <file>font/pirulen.ttf</file>
+  <size>16</size>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <unused>0</unused>
+</font>
+
+<health>
+	<startLoc x="620" y="20"/>
+	<length>200</length>
+	<thick>14</thick>
+	<decrements>20</decrements>
+</health>
+
+<player>
+  <startLoc x="0" y="260"/>
+  <frames>7</frames>
+  <speedX>300</speedX>
+  <speedY>300</speedY>
+  <frameInterval>100</frameInterval>
+  <transparency>true</transparency>
+  <xRange>0</xRange>
+  <yRange>0</yRange>
+  <zx>0.8</zx>
+  <zy>0.8</zy>
+  <chunk>
+	<size>15</size>
+	<distance>200</distance>
+	<zx>1</zx>
+	<zy>1</zy>
+  </chunk>
+  <movements>100</movements>
+</player>
+
+<playerLeft>
+	<file>images/player/left.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>180</width>
+  <height>95</height>
+  <frames>7</frames>
+</playerLeft>
+
+<playerRight>
+	<file>images/player/right.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>180</width>
+  <height>95</height>
+  <frames>7</frames>
+</playerRight>
+
+<leftBullet>
+	<file>images/player/leftBullet.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>75</width>
+  <height>75</height>
+  <startLoc x="0" y="240"/>
+  <speedX>100</speedX>
+  <speedY>100</speedY>
+  <frames>4</frames>
+  <frameInterval>200</frameInterval>
+  <zx>0.8</zx>
+  <zy>0.8</zy>
+  <transparency>true</transparency>
+</leftBullet>
+
+<rightBullet>
+	<file>images/player/rightBullet.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>75</width>
+  <height>75</height>
+  <startLoc x="0" y="240"/>
+  <speedX>100</speedX>
+  <speedY>100</speedY>
+  <frames>4</frames>
+  <frameInterval>200</frameInterval>
+  <zx>0.8</zx>
+  <zy>0.8</zy>
+  <transparency>true</transparency>
+</rightBullet>
+
+<enemy>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>128</width>
+  <height>111</height>
+  <startLoc x="0" y="240"/>
+  <speedX>-100</speedX>
+  <speedY>100</speedY>
+  <frames>4</frames>
+  <frameInterval>100</frameInterval>
+  <zx>0.7</zx>
+  <zy>0.7</zy>
+  <transparency>true</transparency>
+    <chunk>
+    <size>10</size>
+    <distance>200</distance>
+	<zx>1</zx>
+ 	<zy>1</zy>
+  </chunk>
+</enemy>
+
+<enemyLeft>
+	<file>images/enemy/left.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>128</width>
+  <height>111</height>
+  <frames>4</frames>
+</enemyLeft>
+
+<enemyRight>
+	<file>images/enemy/right.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>128</width>
+  <height>111</height>
+  <frames>4</frames>
+</enemyRight>
+
+<enemyBulletUpLeft>
+	<file>images/enemy/upleft.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>64</width>
+  <height>64</height>
+  <startLoc x="0" y="240"/>
+  <speedX>100</speedX>
+  <speedY>100</speedY>
+  <frames>8</frames>
+  <frameInterval>200</frameInterval>
+  <zx>1</zx>
+  <zy>1</zy>
+  <transparency>true</transparency>
+</enemyBulletUpLeft>
+
+<enemyBulletUpRight>
+	<file>images/enemy/upright.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>64</width>
+  <height>64</height>
+  <startLoc x="0" y="240"/>
+  <speedX>100</speedX>
+  <speedY>100</speedY>
+  <frames>8</frames>
+  <frameInterval>200</frameInterval>
+  <zx>1</zx>
+  <zy>1</zy>
+  <transparency>true</transparency>
+</enemyBulletUpRight>
+
+<enemyBulletDownLeft>
+	<file>images/enemy/downleft.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>64</width>
+  <height>64</height>
+  <startLoc x="0" y="240"/>
+  <speedX>100</speedX>
+  <speedY>100</speedY>
+  <frames>8</frames>
+  <frameInterval>200</frameInterval>
+  <zx>1</zx>
+  <zy>1</zy>
+  <transparency>true</transparency>
+</enemyBulletDownLeft>
+
+<enemyBulletDownRight>
+	<file>images/enemy/downright.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>64</width>
+  <height>64</height>
+  <startLoc x="0" y="240"/>
+  <speedX>100</speedX>
+  <speedY>100</speedY>
+  <frames>8</frames>
+  <frameInterval>200</frameInterval>
+  <zx>1</zx>
+  <zy>1</zy>
+  <transparency>true</transparency>
+</enemyBulletDownRight>
+
+<fire>
+	<file>images/back/explosion.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>96</width>
+  <height>96</height>
+  <startLoc x="0" y="240"/>
+  <speedX>150</speedX>
+  <speedY>150</speedY>
+  <frames>20</frames>
+  <frameInterval>100</frameInterval>
+  <zx>0.5</zx>
+  <zy>0.5</zy>
+  <transparency>true</transparency>
+</fire>
+
+<explosion>
+	<file>images/back/explosion.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>96</width>
+  <height>96</height>
+  <startLoc x="0" y="240"/>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <frames>20</frames>
+  <frameInterval>100</frameInterval>
+  <zx>1</zx>
+  <zy>1</zy>
+  <transparency>true</transparency>
+</explosion>
+
+</GameData>
